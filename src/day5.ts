@@ -51,7 +51,6 @@ const solveA = (input: any): string => {
       stacks[step.to].push(stacks[step.from].pop());
     }
   }
-  console.log('stacks ', stacks);
   return stacks.reduce((message, stack) => message + stack.pop());
 };
 
@@ -60,7 +59,6 @@ const solveB = (input: any): string => {
   for (const step of steps) {
     stacks[step.to].push(...stacks[step.from].splice(-step.move));
   }
-  console.log('stacks ', stacks);
   return stacks.reduce((message, stack) => message + stack.pop());
 };
 

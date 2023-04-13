@@ -36,6 +36,7 @@ const solveB = (input: any): number => {
   }
   return overlapping;
 }
+
 export const day4 = (input: any): void => {
   const processedInput = processInput(input);
   console.log('\n-------- DAY 4 ---------')

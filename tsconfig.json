@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "sourceMap": true,
     /* Visit https://aka.ms/tsconfig to read more about this file */
 
     /* Language and Environment */
@@ -24,6 +25,6 @@
     "noImplicitAny": true,                               /* Enable error reporting for expressions and declarations with an implied 'any' type. */
 
     /* Completeness */
-    "skipLibCheck": true                                 /* Skip type checking all .d.ts files. */
+    "skipLibCheck": true,                                 /* Skip type checking all .d.ts files. */
   }
 }

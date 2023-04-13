@@ -1,5 +1,6 @@
 import { day4 } from './day4';
 import { readFileSync } from 'fs';
+import { day5 } from './day5';
 
 const readInput = (dayNumber: number) => {
   try {
@@ -11,8 +12,9 @@ const readInput = (dayNumber: number) => {
 
 const executeDay = (day: number) => {
   const input = readInput(day);
-  const result = day4(input);
+  const result = day5(input);
   return result;
 }
 
 console.log('hello', executeDay(4));
+console.log('hello', executeDay(5));
